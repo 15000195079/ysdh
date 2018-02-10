@@ -1,0 +1,53 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "rules": {
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-alert": 0,
+        "no-console": 0,
+        "no-dupe-args": 2,
+        "no-duplicate-case": 2,
+        "no-else-return": 2,
+        "no-empty-label": 0,
+        "no-extra-bind": 2,
+        "no-extra-parens": 2,
+        "no-extra-semi": 2,
+        "no-inline-comments": 0,
+        "lines-around-comment": 0,
+        "no-warning-comments": [1, { "terms": ["todo", "fixme", "xxx"], "location": "start" }],
+        "spaced-comment": 0,
+        "no-label-var": 2,
+        "no-multi-spaces": 1,
+        "no-new-object": 2,
+        "no-new-require": 2,
+        "no-new-wrappers": 2,
+        "eqeqeq": 1,
+        "default-case": 2,
+        "curly": [2, "all"],
+        "no-undef": 0,
+        "id-match": 0,
+        "no-eq-null": 0,
+        "no-nested-ternary": 0
+
+
+    }
+}
